@@ -8,7 +8,7 @@
 
 A face detection system optimized for Raspberry Pi 5 with Camera Module 3, offering two implementations: OpenCV (lightweight) and MediaPipe (accurate).
 
-![Face Detection Demo]([[https://via.placeholder.com/800x400?text=Face+Detection+Demo](https://github.com/Armoumad/Facial-Detection-on-Raspberry-Pi-5-with-Camera-Module-3/blob/main/photo%20test](https://github.com/Armoumad/Facial-Detection-on-Raspberry-Pi-5-with-Camera-Module-3/blob/main/photo%20test)))
+![Face Detection Demo](https://github.com/Armoumad/Facial-Detection-on-Raspberry-Pi-5-with-Camera-Module-3/blob/main/photo%20test)
 
 ## 📋 Prerequisites
 

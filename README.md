@@ -8,7 +8,7 @@
 
 A face detection system optimized for Raspberry Pi 5 with Camera Module 3, offering two implementations: OpenCV (lightweight) and MediaPipe (accurate).
 
-![Face Detection Demo](https://via.placeholder.com/800x400?text=Face+Detection+Demo)
+![Face Detection Demo]([https://via.placeholder.com/800x400?text=Face+Detection+Demo](https://github.com/Armoumad/Facial-Detection-on-Raspberry-Pi-5-with-Camera-Module-3/blob/main/photo%20test))
 
 ## 📋 Prerequisites
 
@@ -22,35 +22,51 @@ A face detection system optimized for Raspberry Pi 5 with Camera Module 3, offer
 - Python 3.9+
 
 ## 🔧 Installation
-
 1. Clone this repository on your Raspberry Pi:
 ```bash
-git clone https://github.com/Armoumad/raspberry-face-detection.git
-cd raspberry-face-detection
+https://github.com/Armoumad/Facial-Detection-on-Raspberry-Pi-5-with-Camera-Module-3.git
+cd Facial-Detection-on-Raspberry-Pi-5-with-Camera-Module-3
 ```
 
-2. Make the installation script executable and run it:
+2. Mettre à jour le système
 ```bash
-chmod +x install_dependencies.sh
-./install_dependencies.sh
+sudo apt-get update
+sudo apt-get upgrade -y
 ```
 
-3. Make the detection scripts executable:
+3.  Installer les dépendances pour OpenCV 
 ```bash
-chmod +x face_detection_opencv.py
-chmod +x face_detection_mediapipe.py
+sudo apt-get install -y build-essential cmake pkg-config
+sudo apt-get install -y libjpeg-dev libtiff5-dev libpng-dev
+sudo apt-get install -y libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+sudo apt-get install -y libxvidcore-dev libx264-dev
+sudo apt-get install -y libfontconfig1-dev libcairo2-dev
+sudo apt-get install -y libgdk-pixbuf2.0-dev libpango1.0-dev
+sudo apt-get install -y libgtk2.0-dev libgtk-3-dev
+sudo apt-get install -y libatlas-base-dev gfortran
+sudo apt-get install -y python3-dev python3-pip
+
 ```
+
+4. Installer les bibliothèques Python
+```bash
+pip3 install numpy
+pip3 install opencv-python
+pip3 install opencv-contrib-python
+pip3 install mediapipe
+```
+If there is any problem installing mediapipe, you can use this command instead:
+```bash
+pip3 install --break-system-packages mediapipe
+```
+```
+pip3 install picamera2
+```
+
 
 ## 🚀 Usage
-
-### Face detection with OpenCV (lighter)
 ```bash
-./face_detection_opencv.py
-```
-
-### Face detection with MediaPipe (more accurate)
-```bash
-./face_detection_mediapipe.py
+python3 face_detection.py
 ```
 
 To exit the application, press the `q` key when the display window is active.

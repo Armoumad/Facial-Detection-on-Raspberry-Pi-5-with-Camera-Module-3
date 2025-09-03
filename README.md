@@ -130,6 +130,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [MediaPipe](https://mediapipe.dev/)
 - [Picamera2](https://github.com/raspberrypi/picamera2)
 - [Raspberry Pi Foundation](https://www.raspberrypi.org/)
+- [aytoo]([https://www.raspberrypi.org/](https://aytoo.ma/))
+- [innovlab]([https://innovlab.ma/)
+- [innovlab]((https://innovlabacademy.ma/))
 
 ---
 

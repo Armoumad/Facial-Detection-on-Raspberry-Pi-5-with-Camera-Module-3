@@ -131,7 +131,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [Picamera2](https://github.com/raspberrypi/picamera2)
 - [Raspberry Pi Foundation](https://www.raspberrypi.org/)
 - [aytoo](https://aytoo.ma/)
-- [innovlab]([https://innovlab.ma/)
+- [innovlab](https://innovlab.ma/)
 - [innovlab academy](https://innovlabacademy.ma/)
 
 ---
